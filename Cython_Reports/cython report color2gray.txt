@@ -1,0 +1,34 @@
+1.
+Average runtime running numpy color2gray after 3 runs : 
+    -First run: 4 function calls in 0.493 seconds
+    -Second run: 4 function calls in 0.508 seconds
+    -Third run: 4 function calls in 0.502 seconds
+    - Average after 3 runs: 0.501 seconds
+
+
+2. 
+Average runtime for running cython color2gray is 4.43 times
+faster than python color2gray .py.
+    - Python color2gray Average : 2.223 seconds
+    - Cython color2gray Average : 0.501 seconds
+    - 2.223 / 0.501 = 4.43
+
+
+3.
+Average runtime for running cython color2gray is 26.3 times
+slower than numpy color2gray.py
+    - Numpy color2gray Average : 0.019 seconds
+    - Cython color2gray Average : 0.501 seconds
+    - 0.501 / 0.019 = 26.3 times
+
+
+
+4.
+Average runtime for running cython color2gray is 2.23 times
+slower than numba color2gray.py
+    - numba_color2Gray - Average = 0.224 seconds
+    - Cython color2gray Average : 0.501 seconds
+    - 0.501 / 0.224 = 2.23
+
+
+Timing performed using : cProfile

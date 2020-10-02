@@ -1,0 +1,19 @@
+First Run
+random_array: 0.00419282913208
+snake_loop: 0.986963033676
+snake_loop: 0.107501029968
+
+Second Run
+random_array: 0.00403308868408
+snake_loop: 1.07549491119
+snake_loop: 0.106673955917
+
+Third Run
+random_array: 0.00407695770264
+snake_loop: 0.987971067429
+snake_loop: 0.107257843018
+
+Compared to the manual timing, which got a 1.23s on the slowest function, timeit got 1.075 on the slowest function.
+Resulting in a 0.155 seconds faster execution after three runs. 
+
+

@@ -1,0 +1,29 @@
+1.
+We expect you also to prepare a report containing the dimensions of the image being grayscaled (that is, H,W,C):
+    h = 400
+    w = 600
+    c = 3
+
+2.
+Timing : 
+    numpy_color2gray
+
+3.
+Average runtime running numpy color2gray after 3 runs : 
+    - First run: 13 function calls in 0.023 seconds
+    - Second run: 13 function calls in 0.017 seconds
+    - Third run: 13 function calls in 0.018 seconds
+
+    Average: 0.019 seconds
+
+4.
+Average runtime running of numpy color2gray is 116 times faster
+than python color2gray:
+
+    python_color2gray - Average = 2.22
+    numpy_color2gray - Average = 0.019
+    numpy_color2gray is 116 times faster on Average
+
+5.
+Timing performed using :
+    cProfile

@@ -1,0 +1,17 @@
+First Run
+random_array: ('Seconds since epoch =', 0.00545811653137207)
+snake_loop: ('Seconds since epoch =', 1.0532631874084473)
+loop: ('Seconds since epoch =', 0.11700987815856934)
+
+Second Run
+random_array:('Seconds since epoch =', 0.004558086395263672)
+snake_loop:('Seconds since epoch =', 1.2380030155181885)
+loop:('Seconds since epoch =', 0.11684298515319824)
+
+Third Run
+random_array:('Seconds since epoch =', 0.004275083541870117)
+snake_loop:('Seconds since epoch =', 0.9953010082244873)
+loop:('Seconds since epoch =', 0.11072182655334473)
+
+The slowest part was the second function.
+

@@ -1,0 +1,23 @@
+1.
+Dimensions:
+    h = 400
+    w = 600
+    c = 3
+
+2.
+Timing : 
+    - python_color2sepia
+
+3.
+Average runtime running python color2sepia after 3 runs: 
+    - First run: 480008 function calls in 9.885 seconds
+    - Second run: 480008 function calls in 8.014 seconds
+    - Third run: 480008 function calls in 8.634 seconds
+    
+    - python_color2sepia - Average = 8.844 seconds.
+
+4.
+Timing performed using :
+    cProfile
+
+

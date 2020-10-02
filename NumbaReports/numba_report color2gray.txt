@@ -1,0 +1,39 @@
+
+1.
+Can you think of any advantages/disadvantages to using Numba instead of NumPy? Name them in your report.
+    Numba has to compile the function before it executes the machine code version
+    of the function, and this takes time. However, ones the compilation is finished, 
+    numba caches the machine code version of the function. If it is called again, with 
+    the same types, it can be reused, instead of being compiled again.
+
+    In our case it was a disadvantage to use numba because of the time of the first compiling.
+    The second and third run of numba was a lot faster than what numpy managed, but the first was to big of a factor.
+
+2.
+Average runtime running numpy color2gray after 3 runs :
+    - Average: 0.019 seconds
+
+
+3.
+Average runtime for running numba color2gray is 8.9 times
+faster than python color2gray .py.
+    - python_color2gray - Average = 2.223 seconds
+    - numba_color2gray - Average = 0.248 seconds
+    Numba is 8.9 times faster than python
+    
+
+4.
+Average runtime for running numba color2gray is:
+    - Elapsed (with compilation) = 0.6600019931793213
+    - Elapsed (after compilation-1) = 0.007760047912597656
+    - Elapsed (after compilation-2) = 0.007128715515136719
+
+    numba_color2Gray - Average = 0.224 seconds
+    nymPy_color2Gray - Average = 0.019
+
+    Nuba is 11.7 times
+    slower than numpy_color2gray.py
+
+5.
+Timing performed using : timeit
+

@@ -1,0 +1,23 @@
+1.
+We expect you also to prepare a report containing the dimensions of the image being grayscaled (that is, H,W,C):
+    h = 400
+    w = 600
+    c = 3
+
+2.
+Timing : 
+    - python color2gray
+
+3.
+Average runtime running python color2gray after 3 runs: 
+    - First run: 6 function calls in 2.196 seconds
+    - Second run: 6 function calls in 2.144 seconds
+    - Third run: 6 function calls in 2.359 seconds
+    
+    - Average = 2.223 second
+
+4.
+Timing performed using :
+    cProfile
+
+

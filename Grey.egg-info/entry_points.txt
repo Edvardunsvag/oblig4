@@ -1,0 +1,3 @@
+[console_scripts]
+run_instapy = instapy_package.bin.instapy:main
+

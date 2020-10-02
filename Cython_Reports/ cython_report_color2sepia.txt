@@ -1,0 +1,35 @@
+1.
+Average runtime running cython_color2sepia after 3 runs : 
+    - First run: 4 function calls in 7.497 seconds
+    - Second run: 4 function calls in 6.980 seconds
+    - Third run: 4 function calls in 8.108 seconds
+
+    Average: 7.52 seconds
+
+
+2. 
+Average runtime for running cython_color2sepia is 1.18 times
+faster than python color2gray .py.
+    - Python_color2sepia - Average = 8.844 seconds.
+    - Cython color2sepia Average : 7.52 seconds
+    - 8.844  / 7.52 = 1.18 times
+
+
+3.
+Average runtime for running cython_color2sepia is 227 times
+slower than numpy color2gray.py
+    - Numpy color2sepia Average :  0.033 seconds
+    - Cython color2sepia Average : 7.52 seconds
+    - 7.52 / 0.033 = 227 times
+
+
+
+4.
+Average runtime for running cython color2gray is 1.12 times
+slower than numba color2gray.py
+    - numba_color2sepia - Average = 8.45 seconds
+    - Cython color2sepia Average : 7.52 seconds
+    - 8.45  / 7.52  = 1.12
+
+
+Timing performed using : cProfile

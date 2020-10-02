@@ -1,0 +1,23 @@
+First Run
+random_array: 0.004
+snake_loop: 0.968
+loop: 0.094
+
+Second Run
+random_array: 0.004
+snake_loop: 0.956
+loop: 0.097
+
+Third Run
+random_array: 0.004
+snake_loop: 0.963
+loop: 0.094
+
+
+Compared to the manual_time_testing and timeit_time_testing, using cProfile we achived
+the fastest time on the slowest function. Almost a tenth of a second faster than timeit.
+- manual_time: 1.23s
+- timeit_time : 1.075
+- cProfile_time : 0.96
+
+

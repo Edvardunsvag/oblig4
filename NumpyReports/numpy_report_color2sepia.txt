@@ -1,0 +1,29 @@
+1.
+We expect you also to prepare a report containing the dimensions of the image being grayscaled (that is, H,W,C):
+    h = 400
+    w = 600
+    c = 3
+
+2.
+Timing : 
+    numpy_color2sepia
+
+3.
+Average runtime running numpy_color2sepia after 3 runs : 
+    - First run: 720039 function calls in 0.311 seconds
+    - Second run: 720039 function calls in 0.345 seconds
+    - Third run: 720039 function calls in 0.335 seconds
+
+    Average: 0.033 seconds
+
+4.
+Average runtime running of numpy_color2sepia is 268 times faster
+than python color2sepia:
+
+    python_color2sepia - Average = 8.844 seconds.
+    numpy_color2sepia - Average = 0.33 seconds
+    numpy_color2sepia is 26,7 times faster on Average
+
+5.
+Timing performed using :
+    cProfile
